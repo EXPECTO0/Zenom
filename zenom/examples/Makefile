@@ -30,7 +30,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = examples1.0.0
-DISTDIR = /home/sefa/Desktop/znm/zenom/examples/.tmp/examples1.0.0
+DISTDIR = /home/sefa/Music/Zenom/zenom/examples/.tmp/examples1.0.0
 SUBTARGETS    =  \
 		sub-Morph \
 		sub-BouncingBall \
@@ -42,154 +42,154 @@ SUBTARGETS    =  \
 
 sub-Morph-qmake_all:  FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro
+	cd Morph/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro
 	cd Morph/ && $(MAKE) -f Makefile qmake_all
 sub-Morph: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile
 sub-Morph-make_first: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile 
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile 
 sub-Morph-all: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile all
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile all
 sub-Morph-clean: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile clean
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile clean
 sub-Morph-distclean: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile distclean
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile distclean
 sub-Morph-install_subtargets: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile install
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile install
 sub-Morph-uninstall_subtargets: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile uninstall
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile uninstall
 sub-BouncingBall-qmake_all:  FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro
+	cd BouncingBall/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro
 	cd BouncingBall/ && $(MAKE) -f Makefile qmake_all
 sub-BouncingBall: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile
 sub-BouncingBall-make_first: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile 
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile 
 sub-BouncingBall-all: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile all
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile all
 sub-BouncingBall-clean: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile clean
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile clean
 sub-BouncingBall-distclean: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile distclean
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile distclean
 sub-BouncingBall-install_subtargets: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile install
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile install
 sub-BouncingBall-uninstall_subtargets: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile uninstall
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile uninstall
 sub-HelloWorld-qmake_all:  FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro
+	cd HelloWorld/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro
 	cd HelloWorld/ && $(MAKE) -f Makefile qmake_all
 sub-HelloWorld: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile
 sub-HelloWorld-make_first: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile 
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile 
 sub-HelloWorld-all: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile all
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile all
 sub-HelloWorld-clean: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile clean
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile clean
 sub-HelloWorld-distclean: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile distclean
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile distclean
 sub-HelloWorld-install_subtargets: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile install
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile install
 sub-HelloWorld-uninstall_subtargets: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile uninstall
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile uninstall
 sub-Sine-qmake_all:  FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro
+	cd Sine/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro
 	cd Sine/ && $(MAKE) -f Makefile qmake_all
 sub-Sine: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile
 sub-Sine-make_first: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile 
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile 
 sub-Sine-all: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile all
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile all
 sub-Sine-clean: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile clean
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile clean
 sub-Sine-distclean: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile distclean
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile distclean
 sub-Sine-install_subtargets: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile install
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile install
 sub-Sine-uninstall_subtargets: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile uninstall
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile uninstall
 sub-SineFilter-qmake_all:  FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro
+	cd SineFilter/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro
 	cd SineFilter/ && $(MAKE) -f Makefile qmake_all
 sub-SineFilter: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile
 sub-SineFilter-make_first: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile 
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile 
 sub-SineFilter-all: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile all
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile all
 sub-SineFilter-clean: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile clean
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile clean
 sub-SineFilter-distclean: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile distclean
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile distclean
 sub-SineFilter-install_subtargets: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile install
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile install
 sub-SineFilter-uninstall_subtargets: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile uninstall
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile uninstall
 sub-ZeroMQ-qmake_all:  FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro
+	cd ZeroMQ/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro
 	cd ZeroMQ/ && $(MAKE) -f Makefile qmake_all
 sub-ZeroMQ: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile
 sub-ZeroMQ-make_first: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile 
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile 
 sub-ZeroMQ-all: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile all
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile all
 sub-ZeroMQ-clean: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile clean
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile clean
 sub-ZeroMQ-distclean: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile distclean
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile distclean
 sub-ZeroMQ-install_subtargets: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile install
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile install
 sub-ZeroMQ-uninstall_subtargets: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile uninstall
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile uninstall
 
 Makefile: examples.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
@@ -359,42 +359,42 @@ uninstall_subtargets: sub-Morph-uninstall_subtargets sub-BouncingBall-uninstall_
 
 sub-Morph-check:
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile check
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile check
 sub-BouncingBall-check:
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile check
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile check
 sub-HelloWorld-check:
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile check
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile check
 sub-Sine-check:
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile check
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile check
 sub-SineFilter-check:
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile check
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile check
 sub-ZeroMQ-check:
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile check
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile check
 check: sub-Morph-check sub-BouncingBall-check sub-HelloWorld-check sub-Sine-check sub-SineFilter-check sub-ZeroMQ-check
 
 sub-Morph-benchmark:
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile benchmark
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -f Makefile benchmark
 sub-BouncingBall-benchmark:
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile benchmark
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -f Makefile benchmark
 sub-HelloWorld-benchmark:
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile benchmark
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -f Makefile benchmark
 sub-Sine-benchmark:
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile benchmark
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -f Makefile benchmark
 sub-SineFilter-benchmark:
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile benchmark
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -f Makefile benchmark
 sub-ZeroMQ-benchmark:
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile benchmark
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -f Makefile benchmark
 benchmark: sub-Morph-benchmark sub-BouncingBall-benchmark sub-HelloWorld-benchmark sub-Sine-benchmark sub-SineFilter-benchmark sub-ZeroMQ-benchmark
 install:install_subtargets  FORCE
 
@@ -411,25 +411,25 @@ distdir: sub-Morph-distdir sub-BouncingBall-distdir sub-HelloWorld-distdir sub-S
 
 sub-Morph-distdir: FORCE
 	@test -d Morph/ || mkdir -p Morph/
-	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/Morph
+	cd Morph/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/Morph
 
 sub-BouncingBall-distdir: FORCE
 	@test -d BouncingBall/ || mkdir -p BouncingBall/
-	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/BouncingBall
+	cd BouncingBall/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/BouncingBall
 
 sub-HelloWorld-distdir: FORCE
 	@test -d HelloWorld/ || mkdir -p HelloWorld/
-	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/HelloWorld
+	cd HelloWorld/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/HelloWorld
 
 sub-Sine-distdir: FORCE
 	@test -d Sine/ || mkdir -p Sine/
-	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/Sine
+	cd Sine/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/Sine
 
 sub-SineFilter-distdir: FORCE
 	@test -d SineFilter/ || mkdir -p SineFilter/
-	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/SineFilter
+	cd SineFilter/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/SineFilter
 
 sub-ZeroMQ-distdir: FORCE
 	@test -d ZeroMQ/ || mkdir -p ZeroMQ/
-	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/ZeroMQ
+	cd ZeroMQ/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/ZeroMQ
 

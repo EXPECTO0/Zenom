@@ -38,7 +38,7 @@ void LinearGauge::saveSettings(QSettings& pSettings)
     pSettings.setValue("maxValue", maximum());
 
     // Ticks
-    pSettings.setValue("scaleMaxMajor", scaleMaxMajor());
+    pSettings.setValue("scaleStepSize", scaleStepSize());
     pSettings.setValue("labels", scaleDraw()->hasComponent( QwtAbstractScaleDraw::Labels ));
     pSettings.setValue("font", font().family());
     pSettings.setValue("fontSize", font().pointSize());
@@ -70,7 +70,7 @@ void LinearGauge::loadSettings(QSettings& pSettings)
     setUpperBound( pSettings.value("maxValue", 10).toDouble() );
 
     // Ticks
-    setScaleStepSize( pSettings.value("scaleMaxMajor", 12).toInt() );
+    setScaleStepSize( pSettings.value("scaleStepSize", 2).toInt() );
     scaleDraw()->enableComponent( QwtAbstractScaleDraw::Labels, pSettings.value("labels", true).toBool() );
     setFont( QFont(	pSettings.value("font").toString(), pSettings.value("fontSize", 8).toDouble()) );
 

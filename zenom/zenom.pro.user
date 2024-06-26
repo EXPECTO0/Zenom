@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 13.0.1, 2024-06-11T01:26:34. -->
+<!-- Written by QtCreator 13.0.1, 2024-06-26T04:41:25. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -92,13 +92,13 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Desktop Qt 5.15.2 GCC 64bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Desktop Qt 5.15.2 GCC 64bit</value>
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">qt.qt5.5152.gcc_64_kit</value>
-   <value type="qlonglong" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="qlonglong" key="ProjectExplorer.Target.ActiveBuildConfiguration">1</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">6</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">/home/sefa/Music/Zenom/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">/home/sefa/Music/Zenom/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -241,14 +241,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/BouncingBall/BouncingBall.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">BouncingBall2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/BouncingBall/BouncingBall.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/BouncingBall</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/BouncingBall</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.1">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -260,14 +260,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/HelloWorld/HelloWorld.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">HelloWorld2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/HelloWorld/HelloWorld.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/HelloWorld</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/HelloWorld</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.2">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -279,14 +279,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/Morph/Morph.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Morph2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/Morph/Morph.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/Morph</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/Morph</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.3">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -298,14 +298,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/Sine/Sine.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Sine2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/Sine/Sine.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/Sine</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/Sine</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.4">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -317,14 +317,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/SineFilter/SineFilter.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">SineFilter2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/SineFilter/SineFilter.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/SineFilter</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/SineFilter</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.5">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -336,14 +336,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/examples/ZeroMQ/ZeroMQ.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">ZeroMQ2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/examples/ZeroMQ/ZeroMQ.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/examples/ZeroMQ</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/examples/ZeroMQ</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.6">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -355,14 +355,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/zenom/zenom/zenom.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/zenom/zenom/zenom.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">zenom2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/zenom/zenom/zenom.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/zenom/zenom/zenom.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/zenom/zenom/../../bin</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/zenom/zenom/../../bin</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.7">
     <value type="bool" key="Analyzer.Perf.Settings.UseGlobalSettings">true</value>
@@ -374,14 +374,14 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph dwarf,4096 -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Desktop/znm/zenom/zenom/znm-project/znm-project.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Desktop/znm/zenom/zenom/znm-project/znm-project.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">znm-project2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/sefa/Music/Zenom/zenom/zenom/znm-project/znm-project.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/sefa/Music/Zenom/zenom/zenom/znm-project/znm-project.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Debug/zenom/znm-project/../../bin</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">/home/sefa/Desktop/znm/zenom/build/Desktop_Qt_5_15_2_GCC_64bit-Release/zenom/znm-project/../../bin</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">8</value>
   </valuemap>

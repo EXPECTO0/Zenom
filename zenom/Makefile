@@ -30,7 +30,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = zenom1.0.0
-DISTDIR = /home/sefa/Desktop/znm/zenom/.tmp/zenom1.0.0
+DISTDIR = /home/sefa/Music/Zenom/zenom/.tmp/zenom1.0.0
 SUBTARGETS    =  \
 		sub-zenom \
 		sub-examples
@@ -38,54 +38,54 @@ SUBTARGETS    =  \
 
 sub-zenom-qmake_all:  FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro
+	cd zenom/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro
 	cd zenom/ && $(MAKE) -f Makefile qmake_all
 sub-zenom: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile
 sub-zenom-make_first: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile 
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile 
 sub-zenom-all: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile all
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile all
 sub-zenom-clean: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile clean
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile clean
 sub-zenom-distclean: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile distclean
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile distclean
 sub-zenom-install_subtargets: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile install
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile install
 sub-zenom-uninstall_subtargets: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile uninstall
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile uninstall
 sub-examples-qmake_all:  FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro
+	cd examples/ && $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro
 	cd examples/ && $(MAKE) -f Makefile qmake_all
 sub-examples: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile
 sub-examples-make_first: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile 
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile 
 sub-examples-all: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile all
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile all
 sub-examples-clean: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile clean
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile clean
 sub-examples-distclean: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile distclean
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile distclean
 sub-examples-install_subtargets: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile install
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile install
 sub-examples-uninstall_subtargets: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile uninstall
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile uninstall
 
 Makefile: zenom.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
@@ -256,18 +256,18 @@ uninstall_subtargets: sub-zenom-uninstall_subtargets sub-examples-uninstall_subt
 
 sub-zenom-check:
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile check
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile check
 sub-examples-check:
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile check
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile check
 check: sub-zenom-check sub-examples-check
 
 sub-zenom-benchmark:
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile benchmark
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -f Makefile benchmark
 sub-examples-benchmark:
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -f Makefile benchmark
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -f Makefile benchmark
 benchmark: sub-zenom-benchmark sub-examples-benchmark
 install:install_subtargets  FORCE
 
@@ -284,9 +284,9 @@ distdir: sub-zenom-distdir sub-examples-distdir FORCE
 
 sub-zenom-distdir: FORCE
 	@test -d zenom/ || mkdir -p zenom/
-	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/zenom/zenom.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/zenom
+	cd zenom/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/zenom/zenom.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/zenom
 
 sub-examples-distdir: FORCE
 	@test -d examples/ || mkdir -p examples/
-	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Desktop/znm/zenom/examples/examples.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/examples
+	cd examples/ && ( test -e Makefile || $(QMAKE) -o Makefile /home/sefa/Music/Zenom/zenom/examples/examples.pro ) && $(MAKE) -e -f Makefile distdir DISTDIR=$(DISTDIR)/examples
 

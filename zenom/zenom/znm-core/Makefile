@@ -37,7 +37,7 @@ MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
 DISTNAME      = znm-core1.0.0
-DISTDIR = /home/sefa/Desktop/znm/zenom/zenom/znm-core/.tmp/znm-core1.0.0
+DISTDIR = /home/sefa/Music/Zenom/zenom/zenom/znm-core/.tmp/znm-core1.0.0
 LINK          = g++
 LFLAGS        = -Wl,-O1 -shared -Wl,-soname,libznm-core.so.1
 LIBS          = $(SUBLIBS) -L../../lib -lznm-tools -lpthread   
@@ -431,11 +431,11 @@ uninstall_target: FORCE
 
 install_headers: first FORCE
 	@test -d $(INSTALL_ROOT)/usr/local/include/zenom || mkdir -p $(INSTALL_ROOT)/usr/local/include/zenom
-	$(QINSTALL) /home/sefa/Desktop/znm/zenom/zenom/znm-core/znm-core_global.h $(INSTALL_ROOT)/usr/local/include/zenom/znm-core_global.h
-	$(QINSTALL) /home/sefa/Desktop/znm/zenom/zenom/znm-core/variable.h $(INSTALL_ROOT)/usr/local/include/zenom/variable.h
-	$(QINSTALL) /home/sefa/Desktop/znm/zenom/zenom/znm-core/logvariable.h $(INSTALL_ROOT)/usr/local/include/zenom/logvariable.h
-	$(QINSTALL) /home/sefa/Desktop/znm/zenom/zenom/znm-core/controlvariable.h $(INSTALL_ROOT)/usr/local/include/zenom/controlvariable.h
-	$(QINSTALL) /home/sefa/Desktop/znm/zenom/zenom/znm-core/datarepository.h $(INSTALL_ROOT)/usr/local/include/zenom/datarepository.h
+	$(QINSTALL) /home/sefa/Music/Zenom/zenom/zenom/znm-core/znm-core_global.h $(INSTALL_ROOT)/usr/local/include/zenom/znm-core_global.h
+	$(QINSTALL) /home/sefa/Music/Zenom/zenom/zenom/znm-core/variable.h $(INSTALL_ROOT)/usr/local/include/zenom/variable.h
+	$(QINSTALL) /home/sefa/Music/Zenom/zenom/zenom/znm-core/logvariable.h $(INSTALL_ROOT)/usr/local/include/zenom/logvariable.h
+	$(QINSTALL) /home/sefa/Music/Zenom/zenom/zenom/znm-core/controlvariable.h $(INSTALL_ROOT)/usr/local/include/zenom/controlvariable.h
+	$(QINSTALL) /home/sefa/Music/Zenom/zenom/zenom/znm-core/datarepository.h $(INSTALL_ROOT)/usr/local/include/zenom/datarepository.h
 
 uninstall_headers: FORCE
 	-$(DEL_FILE) -r $(INSTALL_ROOT)/usr/local/include/zenom/datarepository.h

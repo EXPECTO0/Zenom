@@ -1,5 +1,6 @@
 #include "radialgauge.h"
 
+#include <iostream>
 RadialGauge::RadialGauge(QWidget *pParent)
     : QwtDial(pParent)
 {
@@ -15,7 +16,6 @@ RadialGauge::RadialGauge(QWidget *pParent)
     setBackgroundColor( QColor( Qt::darkGray ).dark( 150 ) );
     setLineWidth( 4 );
     setFrameShadow( QwtDial::Sunken );
-    setScaleMaxMajor(12);
 }
 
 RadialGauge::~RadialGauge()
@@ -35,29 +35,52 @@ void RadialGauge::setValue( double pValue )
 
 void RadialGauge::saveSettings(QSettings& pSettings)
 {
-    pSettings.setValue("scaleMaxMajor", mScaleMaxMajor);
-    pSettings.setValue("scaleMaxMinor", mScaleMaxMinor);
-    pSettings.setValue("needleType", static_cast<int>(mNeedleType));
-    pSettings.setValue("needleStyle", static_cast<int>(mNeedleStyle));
-    pSettings.setValue("needleColor1", mNeedleColor1);
-    pSettings.setValue("needleColor2", mNeedleColor2);
-    pSettings.setValue("textColor", textColor());
-    pSettings.setValue("backgroundColor", backgroundColor());
-}
+    // Scale
+    pSettings.setValue("lowerBound", lowerBound());
+    pSettings.setValue("upperBound", upperBound());
+    pSettings.setValue("origin", origin());
+    pSettings.setValue("sweepAngle", maxScaleArc());
 
+    // Ticks
+    pSettings.setValue("scaleStepSize", scaleStepSize());
+    pSettings.setValue("font", font().family());
+    pSettings.setValue("fontSize", font().pointSize());
+
+    // Needle
+    pSettings.setValue("value", value());
+    pSettings.setValue("needleType", needleType());
+    pSettings.setValue("needleStyle", needleStyle());
+    pSettings.setValue("needleColor1", needleColor1().rgb());
+    pSettings.setValue("needleColor2", needleColor2().rgb());
+
+    // Color
+    pSettings.setValue("textColor", textColor().rgb());
+    pSettings.setValue("backgroundColor", backgroundColor().rgb());
+}
 void RadialGauge::loadSettings( QSettings& pSettings )
 {
     // Scale
-    setLowerBound( -20.0 );
-    setUpperBound( 20.0 );
-    setOrigin( 135);
-    setScaleArc( 0, 270 );
+    setLowerBound( pSettings.value("lowerBound", -20).toDouble() );
+    setUpperBound( pSettings.value("upperBound", 20).toDouble() );
+    setScaleStepSize( pSettings.value("scaleStepSize", 5).toDouble() );
+    setOrigin( pSettings.value("origin", 135).toDouble() );
+    setScaleArc( 0.0, pSettings.value("sweepAngle", 270).toDouble() );
 
-     // Ticks
-    setScaleStepSize( 5 );
+    // Ticks
+    setScaleStepSize( pSettings.value("scaleStepSize", 10).toDouble() );
+    setFont( QFont(	pSettings.value("font").toString(), pSettings.value("fontSize", 8).toDouble()) );
 
     // Needle
-    setValue( 0 );
+    setValue( pSettings.value("value", 0).toDouble() );
+    RadialGauge::NeedleType needleType = (RadialGauge::NeedleType)pSettings.value("needleType", RadialGauge::SIMPLE_NEEDLE).toInt();
+    RadialGauge::NeedleStyle needleStyle = (RadialGauge::NeedleStyle)pSettings.value("needleStyle", RadialGauge::NEEDLE_STYLE_1).toInt();
+    QColor c1( pSettings.value("needleColor1", QColor(Qt::gray)).toUInt());
+    QColor c2 = QColor::fromRgba(pSettings.value("needleColor2", QColor(Qt::red)).toUInt());
+    setNeedle( needleType, needleStyle, c1, c2 );
+
+    // Color
+    setTextColor( pSettings.value("textColor").toUInt() );
+    setBackgroundColor( pSettings.value("backgroundColor").toUInt() );
 
     AbstractGauge::loadSettings( pSettings );
 }
@@ -73,7 +96,7 @@ void RadialGauge::setNeedle( NeedleType pNeedleType, NeedleStyle pNeedleStyle, Q
 	mNeedleType = pNeedleType;
 	mNeedleStyle = pNeedleStyle;
 	mNeedleColor1 = c1;
-	mNeedleColor2 = c2;
+    mNeedleColor2 = c2;
 
 	switch ( pNeedleType )
 	{
@@ -101,6 +124,7 @@ void RadialGauge::setNeedle( NeedleType pNeedleType, NeedleStyle pNeedleStyle, Q
 		}
 		break;
 	}
+
 }
 
 RadialGauge::NeedleType RadialGauge::needleType()
