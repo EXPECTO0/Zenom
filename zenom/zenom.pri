@@ -26,5 +26,5 @@ ZENOM_INSTALL_BINS      = $${ZENOM_INSTALL_PREFIX}/bin
 # Qwt path
 #--------------------------------------------------------------
 
-QWT_HEADERS   = /home/sefa/Documents/qwt-6.2.0/src
-QWT_LIBS      = /home/sefa/Documents/qwt-6.2.0/lib
+QWT_HEADERS   = /home/sefa/Music/qwt-6.2.0/src
+QWT_LIBS      = /home/sefa/Music/qwt-6.2.0/lib
